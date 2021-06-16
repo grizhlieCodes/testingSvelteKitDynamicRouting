@@ -6,14 +6,14 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
-collections: 
+collections:
 	- name: "posts"
 		label: "Posts"
 		folder: "static/posts"
 		slug: "{{slug}}"
-		fields: 
-			- {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-			- {label: "Title", name: "title", widget: "string"}
-			- {label: "Publish Date", name: "date", widget: "date"}
-			- {label: "Featured Image", name: "thumbnail", widget: "image"}
-			- {label: "Body", name: "body", widget: "markdown"}
+		fields:
+			- { label: "Layout", name: "layout", widget: "hidden", default: "posts" }
+			- { label: "Title", name: "title", widget: "string" }
+			- { label: "Date", name: "date", widget: "date" }
+			- { label: "Thumbnail", name: "thumbnail", widget: "image" }
+			- { label: "Body", name: "body", widget: "markdown" }
