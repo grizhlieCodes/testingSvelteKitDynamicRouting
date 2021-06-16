@@ -7,7 +7,7 @@ media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-- name: "posts"
+	- name: "posts"
 	label: "Posts"
 	folder: "static/posts"
 	slug: "{{slug}}"
