@@ -11,7 +11,7 @@ collections:
    label: "Posts"
    folder: "static/posts"
    slug: "{{slug}}"
-	 create: true
+   create: true
    fields:
     - { label: "Layout", name: "layout", widget: "hidden", default: "posts" }
     - { label: "Title", name: "title", widget: "string" }
